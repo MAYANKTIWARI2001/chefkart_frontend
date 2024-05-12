@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+}
+.hed{
+    background-color: white;
+    height: 300px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 13px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .cir{
+    border-radius: 50%;
+    background-color: #FFF9F2;
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-top: 30px;
+  }
+
+  .column {
+    
+    width: 33.33%;
+    padding: 0px;
+    margin-top: -200px;
+    margin-left: 400px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+  .plant{
+    margin-left: 700px;
+    margin-top: 100px;
+    width: 200px;
+  }
+  .tree{
+    margin-left: 800px;
+    margin-top: -20px;
+    
+  }
+  .cir-hed{
+    
+  }
+  .main{
+    background-color:white;
+    height:max-content;
+  }
+  
+  
